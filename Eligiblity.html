@@ -136,43 +136,43 @@ body{
 
 <div class="form-style-10">
 <h1>Check your Eligibility Criteria!<span>You are eligibile or not?</span></h1>
-<form>
+<form method="post" action="connect.php">
     <div class="section"><span>1</span> Name &amp; Address</div>
     <div class="inner-wrap">
-        <label>First Name <input type="text" name="field1" /></label>
-        <label>Middle Name <input type="text" name="field2" /></label>
-        <label>Last Name <input type="text" name="field3" /></label>
-        <label>Address <textarea name="field4"></textarea></label>
+        <label>First Name <input type="text" name="firstname" /></label>
+        <label>Middle Name <input type="text" name="middlename" /></label>
+        <label>Last Name <input type="text" name="lastname" /></label>
+        <label>Address <textarea name="address"></textarea></label>
     </div>
 
     <div class="section"><span>2</span>Age , Gender &amp; Phone Number</div>
     <div class="inner-wrap">
-        <label>Age <input type="text" name="field6" /></label>
-        <label for="field4"><span>Gender</span><select name="field6" class="select-field">
+        <label>Age <input type="text" name="age" /></label>
+        <label for="gender"><span>Gender</span><select name="gender" class="select-field">
 			<option value="Male">Male</option>
 			<option value="Female">Female</option>
 			<option value="Others">Others</option>
 			</select></label>
- 			 
-        	<label>Phone Number <input type="text" name="field7" /></label>
+            			 
+        	<label>Phone Number <input type="text" name="phoneno" /></label>
     	</label>
     </div>
 
     <div class="section"><span>3</span>Annual Income</div>
         <div class="inner-wrap">
-        <label> Income<br><input type="Annual Income" name="field8" /></label>
+        <label> Income<br><input type="Annual Income" name="income" /></label>
     </div>
     <div class="section"><span>4</span>Verification</div>
         <div class="inner-wrap">
     <label>Adhar Card/Pancard/ Passport/Driving Licence <br>
-    	<input type="text" name="field9" /></label>
+    	<input type="text" name="document" /></label>
     <label>Adhar Card/Pancard/ Passport/Driving Licence Number <br>
-    	<input type="text" name="field10" /></label>
+    	<input type="text" name="documentno" /></label>
 </div>
     <div class="button-section">
      <input type="submit" name="Sign Up" />
      <span class="privacy-policy">
-     <input type="checkbox" name="field7">You agree to our Terms and Policy. 
+     <input type="checkbox" name="submit">You agree to our Terms and Policy. 
      </span>
     </div>
 </form>
